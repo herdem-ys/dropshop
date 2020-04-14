@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Seitensuche</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="searchbar.js"></script>
+  </head>
+
+  <body>
+        <header>
+            <searchbar>
+                <table>
+                    <tr>
+                        <td id="td1logo"><img src="logo.png"></td>
+                        <td id="td2searchfield"><input id="searchInput" type="text" placeholder="Wonach suchen sie?"></td>
+                        <td id="td3searchbutton"> <button id="knopf" onclick="search()"><img src="icon.png" width="35px"></button></td>
+                    </tr>
+                </table>
+
+            </searchbar>
+        </header>
+
+    <root>
+        <table>
+                <thead>
+                    <tr>
+                        <th><strong>Produkt</strong></th>
+                        <th><strong>Preis</strong></th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    <tr>
+                        <td>Glühbirne</td>
+                        <td>0,99€</td>
+                    </tr>
+                    <tr>
+                        <td>Maus</td>
+                        <td>12,99€</td>
+                    </tr>
+                    <tr>
+                        <td>Tastatur</td>
+                        <td>15,99€</td>
+                    </tr>
+                    <tr>
+                        <td>Kopfhörer</td>
+                        <td>9,99€</td>
+                    </tr>
+                    <tr>
+                        <td>Airpods</td>
+                        <td>179,99€</td>
+                    </tr>
+                    <tr>
+                        <td>USB-Stick</td>
+                        <td>5,99€</td>
+                    </tr>
+                    <tr>
+                        <td>Lautsprecher</td>
+                        <td>22,99€</td>
+                    </tr>
+                    <tr>
+                        <td>HeadSet</td>
+                        <td>17,99€</td>
+                    </tr>
+                </tbody>
+            
+        </table>
+
+    </root>
+  </body>
+
+</html>
