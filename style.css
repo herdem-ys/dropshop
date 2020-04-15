@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    width: 80%;
+    width: 100%;
     border: 2px solid black;
     margin-top: 0px;
     margin: auto;    
@@ -59,7 +59,9 @@ body{
 }
 
 #td3searchbutton button{
-    width: 100%;
+    width: 60%;
+    color:white;
+    font-size: 15pt;
     padding: 0%;
     margin: 0%;
     border: 0%;
@@ -69,7 +71,7 @@ body{
 header{
     margin-top: 0px;
     margin-left: 0px;
-    background-color: white;
+    background-color: #35394a;
     text-align: center;
     height: auto;
 }
