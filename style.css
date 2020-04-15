@@ -21,6 +21,7 @@ body{
 
 
 
+
 #td1logo{
     width: 6%;
     padding: 0%;
@@ -78,7 +79,7 @@ body{
 }
 
 #td4account{
-    width: 22%;
+    width: 22%; 
     margin: 0%;
     border: 0%;
 }
@@ -90,6 +91,7 @@ body{
     background-color: transparent;
     font-size: 18pt;
     border: none;
+    cursor: pointer;
     padding: 0%;
     margin: 0%;
     border: 0%;

@@ -5,8 +5,15 @@ function search(){
       });
 }
 
+
+window.onload = function() {
+  NProgress.start();
+}
+
+
 $(function (){
-  searchEnter()
+  NProgress.done();
+  searchEnter();
 });
 
 
