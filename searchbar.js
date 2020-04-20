@@ -21,8 +21,11 @@ function searchEnter() {
   var input = $("#searchInput");
   $(input).on("keyup",function(event) {
     if(event.keyCode === 13){
+      NProgress.start();
       event.preventDefault();
       $("#knopf").click();
+      search();
+      NProgress.done();
     }
   });
 }
