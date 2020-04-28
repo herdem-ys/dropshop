@@ -32,7 +32,7 @@ body{
     #td1logo img {
         width: 100%;
         padding: 2%;
-        padding-left: 20px;
+        padding-left: 40px;
         margin: 0%;
         border: 0%;
     }
@@ -81,6 +81,7 @@ body{
 #td4account{
     width: 22%; 
     margin: 0%;
+    
     border: 0%;
 }
 
@@ -97,13 +98,25 @@ body{
     border: 0%;
 }
 
-#td4account:hover{
-    border: 2px solid white;
-    transition: 0.5s ease;
-    cursor: pointer;
+#td4account button a{
+    display: block;
+}
+
+#td4account td:hover{
+border: 2px solid white;
+transition: 0.5s ease;  
+margin: 0%;
+padding: 0%;
+cursor: pointer;
 }
 
 
+#sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999999999999999999999999999999; /* Wird in Zukunft nicht mehr genutzt */
+}
 
 header{
     margin-top: 0px;
@@ -211,6 +224,52 @@ root tbody tr:hover{
     transition: .3s ease;
 }
 
+#myTable td{
+    border: 1px solid black;
+}
+
+/* #myTable td:hover,tr:hover{
+    outline: 1px solid #fff;
+    outline-offset: -2px;
+} */
+
+
+#welcome_pic{
+    position: relative;
+}
+
+#welcome_pic #p1{
+    position: absolute;
+    font-weight: 600;
+    font-family: SF Pro Display;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    font-size: 35pt;
+    text-shadow: 2px 2px 2px black;
+    top: 20px;
+    left: 120px;
+    box-shadow: 2px 2px 12px white;
+}
+
+
+#welcome_pic img{
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+#welcome_pic #src{
+    position: absolute;
+    font-weight: lighter;
+    font-family: SF Pro Display;
+    color: white;
+    padding: 10px;
+    font-size: 10pt;
+    top: 95%;
+    left: 90%;
+
+}
+
+
 
 #searchInput:focus { 
     background-image: none; 
@@ -222,26 +281,37 @@ headernav table{
     height: 5%;
     background-color: black;
     text-decoration: none;
+    margin: 0%;
+    padding: 0%;
 }
 
 
 headernav table td{
     text-align: center;
-    /* border: 1px solid white; */
-    margin: 1%;
+    width: 12.5%;
+    margin: 0%;
+    padding: 0%;
+    border-right: 1px solid white;
 }
 
 
 
 headernav table td:hover{
-    border: 1px solid white;
     margin: 0%;
     padding: 0%;
     cursor: pointer;
+    outline: 1px solid #fff;
+    outline-offset: -1px;
+    transition: .1s  ease-in-out;
+
 }
 
 headernav table a{
     display: block;
     color: white;
+    margin: 0%;
+    padding: 0%;
+    transition: .5s ease;
     text-decoration: none;
 }
+

@@ -12,14 +12,15 @@
         <script src="searchbar.js"></script>
     </head>
   <body>
+      <div id="sticky">
         <header>
-            <searchbar>
+          <searchbar>
                 <table>
                     <tr>
-                        <td id="td1logo"><a href="" target="_self"><img src="logo.png"></a></td>
+                        <td id="td1logo"><a href="" target="_self"><img src="dropshop1.gif"></a></td>
                         <td id="td2searchfield"><input id="searchInput" type="text" placeholder="Wonach suchen sie?"></td>
-                        <td id="td3searchbutton"> <button id="search">Suchen</button></td>
-                        <td id="td4account"><button id="knopf" onclick="NProgress.start()"><a href="test.html" style="text-decoration: none;color: inherit;">anmelden</a></button></td>    
+                        <td id="td3searchbutton"> <button id="search" onclick="search()">Suchen</button></td>
+                        <td id="td4account"><button id="knopf" ><a href="test.html" style="text-decoration: none;color: inherit;">anmelden</a></button></td>    
                     </tr>
                 </table>
             </searchbar>
@@ -28,19 +29,31 @@
     <table>
         <tr>
             <td>
-                <a href="">Haushalt</a>
+                <a href="" target="_self">Haushalt</a>
             </td>
             <td>
-                <a href="">Technik</a>
+                <a href="" target="_self">Elektronik</a>
             </td>
             <td>
-                <a href="">Elektronik</a>
+                <a href="" target="_self">Digital</a>
             </td>
             <td>
-                <a href="">Digital</a>
+                <a href="" target="_self">Auto</a>
+            </td>
+            <td>
+                <a href="" target="_self">Freizeit</a>
             </td>
         </tr>
     </table>
+    </div>
+    <div id="welcome_pic">
+        <center>
+            <img src="phones.jpg" width="100%" oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+        </center>
+        <p id="p1">Bestellen sie Qualität, ohne Bedenken.</p>    
+        <p id="src">Sony Xperia Y 2020</p>   
+    </div>
+
 </headernav>
     <root>
         <table id="products">

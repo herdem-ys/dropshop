@@ -7,12 +7,18 @@ function search(){
 
 
 window.onload = function() {
-  NProgress.start();
+//   (function( d ) {
+//     'use strict';
+//      d.addEventListener( 'contextmenu', function(e) { // Verhindert die Öffnung vom Kontextmenü
+//            e.preventDefault();
+//           }, false);
+//  }( document ));
 }
 
 
 $(function (){
-  NProgress.done();
+  NProgress.start(); // Macht natürlich keinen Sinn...
+  NProgress.done();  // Macht natürlich keinen Sinn...
   searchEnter();
 });
 
