@@ -56,6 +56,15 @@ body{
     padding-inline: 36px;
 }
 
+input::placeholder{
+    transition: .5s ease;
+
+}
+
+input::placeholder:focus{
+    transition: .5s ease;
+    color: white;
+}
 
 #td3searchbutton{
     width: 5%;
@@ -79,11 +88,11 @@ body{
 }
 
 #td4account{
-    width: 22%; 
+    width: 20%; 
     margin: 0%;
-    
     border: 0%;
 }
+
 
 #td4account button{
     width: 100%;
@@ -102,11 +111,12 @@ body{
     display: block;
 }
 
-#td4account td:hover{
+#td4account button a:hover{
 border: 2px solid white;
 transition: 0.5s ease;  
 margin: 0%;
 padding: 0%;
+display: block;
 cursor: pointer;
 }
 
