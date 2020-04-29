@@ -17,7 +17,6 @@ window.onload = function() {
 
 
 $(function (){
-  NProgress.start(); // Macht natürlich keinen Sinn...
   NProgress.done();  // Macht natürlich keinen Sinn...
   searchEnter();
 });
