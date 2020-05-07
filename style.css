@@ -130,11 +130,11 @@ cursor: pointer;
 }
 
 
-#sticky{
+#stickyBar{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 999999999999999999999999999999; /* Wird in Zukunft nicht mehr genutzt */
+    z-index: 200;
 }
 
 header{
