@@ -13,10 +13,14 @@ window.onload = function() {
 //            e.preventDefault();
 //           }, false);
 //  }( document ));
+
 }
 
 
+
+
 $(function (){
+  NProgress.start();
   NProgress.done();  // Macht natürlich keinen Sinn...
   searchEnter();
 });

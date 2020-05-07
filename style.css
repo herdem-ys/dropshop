@@ -8,6 +8,7 @@
 
 html{
     font-family: aron_grotesqueregular;
+    scrollbar-color: grey rgb(34, 34, 34); /* NUR FIREFOX */
 }
 
 body{
@@ -60,6 +61,14 @@ input::placeholder{
     transition: .5s ease;
 
 }
+
+myTable2 td{
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid grey;
+}
+
+
 
 input::placeholder:focus{
     transition: .5s ease;
@@ -186,6 +195,27 @@ input:focus:-ms-input-placeholder {
 }
 
 
+products table{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+products table td{
+    width: 100px;
+    height: 350px;
+    border: 2px solid grey;
+}
+
+/* products img{
+    width: 50px;
+    height: 250px;
+} */
+
+prices{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #search{
     height: 45px;
@@ -325,3 +355,8 @@ headernav table a{
     text-decoration: none;
 }
 
+h1{
+    font-size: 35pt;
+    font-family: SF Pro Text;
+    font-weight: 900;
+}
