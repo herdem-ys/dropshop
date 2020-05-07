@@ -13,15 +13,16 @@ window.onload = function() {
 //            e.preventDefault();
 //           }, false);
 //  }( document ));
+NProgress.start();
+NProgress.done();
 
 }
 
 
 
 
-$(function (){
-  NProgress.start();
-  NProgress.done();  // Macht natürlich keinen Sinn...
+$(function (){ // Macht natürlich keinen Sinn...
+  // NProgress.start();
   searchEnter();
 });
 
@@ -30,11 +31,9 @@ function searchEnter() {
   var input = $("#searchInput");
   $(input).on("keyup",function(event) {
     if(event.keyCode === 13){
-      NProgress.start();
       event.preventDefault();
       $("#knopf").click();
       search();
-      NProgress.done();
     }
   });
 }
