@@ -231,8 +231,8 @@ prices{
 
 #search:hover{
 opacity: 70%;
-box-shadow: 0px 0px 5px white;
-transition: .2s ease;
+border: 1px solid white;
+transition: .3s ease;
 }
 
 
@@ -281,7 +281,7 @@ root tbody tr:hover{
 #welcome_pic #p1{
     position: absolute;
     font-weight: 600;
-    font-family: SF Pro Display;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 10px;
     background-color: black;
@@ -300,7 +300,7 @@ root tbody tr:hover{
 #welcome_pic #src{
     position: absolute;
     font-weight: lighter;
-    font-family: SF Pro Display;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 10px;
     font-size: 10pt;
@@ -310,10 +310,18 @@ root tbody tr:hover{
 }
 
 
+#searchInput{
+    transition: .15s ease;
+}
+
+#searchInput:hover { 
+    opacity: 50%;
+    transition: .3s ease;
+}
 
 #searchInput:focus { 
     background-image: none; 
-    
+    transition: .4s ease;
 }
 
 headernav table{
